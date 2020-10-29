@@ -6,6 +6,9 @@
   "repository": "https://github.com/lewagon/garage-livecode",
   "author": "ssaunier",
   "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
